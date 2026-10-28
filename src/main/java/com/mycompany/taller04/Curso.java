@@ -14,6 +14,7 @@ public class Curso {
     private Profesor responsable;
     private Estudiante estudianteEnEsperaDeInscripcion;
     private Estudiante esutidantesInscritos;
+    public Foro foros;
     
     public String id;
     public String nombre;
