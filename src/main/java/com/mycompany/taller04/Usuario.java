@@ -10,4 +10,15 @@ package com.mycompany.taller04;
  */
 public class Usuario {
     
+    public String usuario;
+    public String contrasena;
+    public String nombre;
+    public String apellido;
+   
+    
+    public boolean logIn(){ return true; }
+    public boolean logOut(){ return true;}
+    
+    
+    
 }
