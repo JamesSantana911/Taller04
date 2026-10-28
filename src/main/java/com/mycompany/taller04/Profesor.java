@@ -10,6 +10,8 @@ package com.mycompany.taller04;
  */
 public class Profesor {
     
+    public Curso cursosACargo;
+    
     public void cargarActividadSumativa(Curso curso, String contenido) {}
     public void solicitarAsesoramiento(String email, String contenido) {}
     public void comentarEnForo(String foro, String comentario) {}
