@@ -8,7 +8,7 @@ package com.mycompany.taller04;
  *
  * @author CltControl
  */
-public class PersonalAcademico extends Usuario {
+public abstract class PersonalAcademico extends Usuario {
     
     public void reportarError(String email, String contenido) {}
     public void solicitarAsesoramiento(String email, String contenido) {}
