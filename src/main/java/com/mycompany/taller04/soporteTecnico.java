@@ -8,7 +8,7 @@ public class soporteTecnico extends Usuario{
 
 
     public soporteTecnico(String Usuario,String contraseña, String nombres, String apellidos, boolean logIn, boolean LogOut){
-        super(Usuario, contraseña, nombres, apellidos, logIn ,LogOut);
+        //super(Usuario, contraseña, nombres, apellidos, logIn ,LogOut);
         
 
     }
