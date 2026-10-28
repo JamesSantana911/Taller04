@@ -42,9 +42,11 @@ public void actualizarSoftware() {
 
 }
 
+
+
 public void asignarResponsable(Curso curso, Profesor responsable) {
 if (curso != null && responsable != null) {
-curso.setResponsable(responsable);
+//curso.setResponsable(responsable);
 }
 }
 }

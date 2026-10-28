@@ -10,4 +10,8 @@ package com.mycompany.taller04;
  */
 public class Foro {
     
+    public String id;
+    public String tematica;
+    public int numeroDeComentarios;
+    
 }
