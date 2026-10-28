@@ -8,7 +8,7 @@ package com.mycompany.taller04;
  *
  * @author CltControl
  */
-public class Usuario {
+public abstract class Usuario {
     
     public String usuario;
     public String contrasena;
