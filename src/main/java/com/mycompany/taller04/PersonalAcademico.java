@@ -10,6 +10,8 @@ package com.mycompany.taller04;
  */
 public abstract class PersonalAcademico extends Usuario {
     
+    public Indicente incidentes;
+    
     public void reportarError(String email, String contenido) {}
     public void solicitarAsesoramiento(String email, String contenido) {}
     public void comentarEnForo(String foro, String comentario) {}
