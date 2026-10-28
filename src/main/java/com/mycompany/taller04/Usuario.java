@@ -14,6 +14,7 @@ public abstract class Usuario {
     public String contrasena;
     public String nombre;
     public String apellido;
+    public Indicente indicentes;
    
     
     public boolean logIn(){ return true; }

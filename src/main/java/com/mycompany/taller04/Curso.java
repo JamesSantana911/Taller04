@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.taller04;
+import java.util.*;
 
 /**
  *
@@ -10,14 +11,18 @@ package com.mycompany.taller04;
  */
 public class Curso {
     
-    private Profesor profesor;
-    private Estudiante estudiante;
+    private Profesor responsable;
+    private Estudiante estudianteEnEsperaDeInscripcion;
+    private Estudiante esutidantesInscritos;
+    public Foro foros;
     
     public String id;
     public String nombre;
     public boolean estadoDisponible;
     
     public Curso() {}
+    
+    public ArrayList<ActividadSumativa> actividades;
     
     
     
