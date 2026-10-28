@@ -11,8 +11,9 @@ import java.util.*;
  */
 public class Curso {
     
-    private Profesor profesor;
-    private Estudiante estudiante;
+    private Profesor responsable;
+    private Estudiante estudianteEnEsperaDeInscripcion;
+    private Estudiante esutidantesInscritos;
     
     public String id;
     public String nombre;
